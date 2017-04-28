@@ -1,9 +1,30 @@
 
-## Containers are ephemeral (cont)
+## Containers are ephemeral
 
-Each container is based off the image, to have changes persist, we need to create a new image for this
+Explore the following commands
 
-There are two ways to create an image
-* Commit an existing container
-* Using a Dockerfile
+Start a new container
+
+```
+docker run -it python:slim /bin/sh
+
+```
+
+Create a new file
+
+```
+touch /myfile.txt
+```
+
+Verify the file was created
+```
+ls /myfile.txt
+```
+
+Exit the container
+
+```
+exit
+
+```
 

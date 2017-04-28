@@ -1,12 +1,17 @@
 
-## Pull requests
+## Cloning
 
-When you've made changes to your fork of someone elses repository, you can request that the incorporate those
-changes into their repository as well by opening a *pull request*
+* In the previous exercises, we created a local repository, and created a copy on a remote server (github)
 
-* Navigate to **your** fork of your partners repository
-* Make sure that the hello.py file shows the commit that you made
-* Click on the "New Pull Request"
-* Review the proposed changes, and make sure the line you added is there
-* Click on the "Create New Pull Request Button"
+* Cloning is the opposite, we will take a remote repository and copy it to our local development
+
+* Run the following commands:
+
+    ```
+    cd ~
+    git clone https://github.com/LAB-PARTNERS-USERID/USERID-hello-world forked-repo
+
+    ```
+
+    This command creates a new directory called forked-repo which contains your partners version of the hello-world project
 

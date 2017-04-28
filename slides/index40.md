@@ -1,19 +1,9 @@
 
-## Creating an image from an existing container(cont)
+## Containers are ephemeral (cont)
 
-* Create a new image using `docker commit`
+Each container is based off the image, to have changes persist, we need to create a new image for this
 
-```
-docker commit ee3d5d30a555 myimage
-```
-
-* Verify the image shows up in `docker images`
-* Start another container with the following command
-```
-docker run -it myimage /bin/sh
-```
-* Verify the file is present the new container
-```
-ls /myfile.txt
-```
+There are two ways to create an image
+* Commit an existing container
+* Using a Dockerfile
 

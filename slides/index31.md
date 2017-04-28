@@ -1,10 +1,12 @@
 
+# Congratulations!!!!
 
-# Docker installation
+You have now successfully done the following:
 
-* Install Docker from the installer you downloaded already (hopefully)
-* Verify your installation using the following command
-    ```
-    docker info
-    ```
+* Created a repository
+* Committed code
+* Pushed Commits to github
+* Forked a repository
+* Created a pull requested
+* Merged a pull request
 

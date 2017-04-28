@@ -1,10 +1,26 @@
 
+## Contributing!!!
 
-## Merging
+* Open your partners repository using PyCharm
+* Add the following line to the hello.py file
+    ```
+    print("Put me in coach, I'm ready to play!")
+    ```
+* Add the modified version of hello.py to your staging index
 
-When a pull request is open, if the changes are acceptable the request can be merged into your code base
+    ```
+    git add hello.py
+    ```
+* Commit your change
+    ```
+    git commit -m "modified hello.py"
 
-* Using github, navigate to **your** hello-world repository
-* You should see a pull request from your partner
-* Merge the pull request into your repository
+    ```
+* Push your change
+
+    ```
+    git push origin master
+    ```
+
+Now origin refers to your fork of your partners repository
 

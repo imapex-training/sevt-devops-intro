@@ -1,14 +1,19 @@
 
-## Containers are ephemeral (cont)
+## Running a container interactively
 
-Start another container using the same image
-```
-docker run -it python:slim /bin/sh
+Now we will run the following command
 
 ```
-
-Check for the file we created
+docker run -i -t python:slim /bin/sh
 ```
-ls /myfile.txt
+This tells docker to start a container interactively (-i) and to allocate a tty session (-t).  These options can also
+be grouped together (-it)
+
+You now have a container running, and have an interactive shell
+
+You can exit the container, by closing the shell using:
+
+```
+exit
 ```
 

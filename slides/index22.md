@@ -1,18 +1,9 @@
 
-## Remotes
+## Commit (cont'd')
 
-* The copy on github.com is referred to as a *remote* view the configuration of
- this with the following command
+Commit hello.py to your local repository
 
-    ```
-    cat .git/config
-    ```
-* Note the following lines
-
-   ```
-   [remote "origin"]
-
-   [branch "master"]
-   ```
-* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
+```
+git commit -m "added hello.py"
+```
 

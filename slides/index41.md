@@ -1,18 +1,25 @@
 
-# Creating an image from a Dockerfile
 
-* Create a file called `Dockerfile` in your project directory
+## Creating an image from an existing container
+
+* Start a new container from the image
     ```
-    FROM python:slim
-    COPY . /app
-    CMD python /app/hello.py
+    docker run -it python:slim /bin/sh
+
     ```
-* Build an image from your Dockerfile
+* Create a new file
     ```
-    docker build -t myimage .
+    touch /myfile.txt
     ```
-* Start a new container using your image
+
+* Exit the container
     ```
-    docker run myimage
+    exit
     ```
+* Get the container id from the `docker ps -a` command
+
+```
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                           PORTS                    NAMES
+ee3d5d30a555        python:slim           "/bin/sh"                11 seconds ago      Exited (0) 3 seconds ago
+```
 

@@ -1,17 +1,8 @@
 
-## Checking the status of your repository
+## Initializing your local repository
 
-* Run the following command from your terminal
-    ```
-    git status
+* Open a terminal window and navigate to your "USERID-hello-wold" project
+* Follow the quickstart instructions from Github Quick Start to accomplish the following
 
-    ```
-* Files must be explicitly checked in / tracked by git
-* Add your hello.py to version control
-
-    ```
-    git add hello.py
-
-    ```
-    This adds the file to the *staging index* which means it will be added in the next commit
+![new repo](images/setup.png)
 

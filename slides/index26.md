@@ -1,26 +1,14 @@
 
-## Contributing!!!
+## Forking
 
-* Open your partners repository using PyCharm
-* Add the following line to the hello.py file
-    ```
-    print("Put me in coach, I'm ready to play!")
-    ```
-* Add the modified version of hello.py to your staging index
+Forking allows you to create your own copy of someone elses repository which you have full control to use
+and modify as you like.
 
-    ```
-    git add hello.py
-    ```
-* Commit your change
-    ```
-    git commit -m "modified hello.py"
+* Navigate to your lab partners github repostiory
 
-    ```
-* Push your change
+    * https://github.com/LAB-PARTNERS-USERID/USERID-hello-world
 
-    ```
-    git push origin master
-    ```
+* Click on the fork button in the upper right hand corner of the screen
 
-Now origin refers to your fork of your partners repository
+* You now have a copy of their repository in your github account
 

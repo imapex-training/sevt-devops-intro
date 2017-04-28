@@ -1,14 +1,18 @@
 
-## Forking
+## Remotes
 
-Forking allows you to create your own copy of someone elses repository which you have full control to use
-and modify as you like.
+* The copy on github.com is referred to as a *remote* view the configuration of
+ this with the following command
 
-* Navigate to your lab partners github repostiory
+    ```
+    cat .git/config
+    ```
+* Note the following lines
 
-    * https://github.com/LAB-PARTNERS-USERID/USERID-hello-world
+   ```
+   [remote "origin"]
 
-* Click on the fork button in the upper right hand corner of the screen
-
-* You now have a copy of their repository in your github account
+   [branch "master"]
+   ```
+* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
 
